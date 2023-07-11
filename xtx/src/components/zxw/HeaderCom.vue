@@ -205,7 +205,7 @@ export default {
     this.localStorage_time = setInterval(() => {
       if (
         localStorage.getItem('token') === null ||
-        !JSON.parse(localStorage.getItem('account')) ||
+        !localStorage.getItem('account') ||
         !localStorage.getItem('user')
       ) {
         localStorage.setItem('token', this.token)

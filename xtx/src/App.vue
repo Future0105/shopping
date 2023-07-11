@@ -12,10 +12,10 @@ export default {
   components: {},
   mounted() {
     if (!localStorage.getItem('user')) {
-      localStorage.setItem('user', JSON.stringify([{ 'name': 'zxw', 'password': '1234567' }]))
+      localStorage.setItem('user', JSON.stringify([{ 'name': 'xxc', 'password': '1234567' }]))
     }
     if (!localStorage.getItem('account')) {
-      localStorage.setItem('account', JSON.stringify([{ 'name': 'zxw', 'cart': [] }]))
+      localStorage.setItem('account', JSON.stringify([{ 'name': 'xxc', 'cart': [] }]))
     }
     if (!localStorage.getItem('token')) {
       localStorage.setItem('token', '')

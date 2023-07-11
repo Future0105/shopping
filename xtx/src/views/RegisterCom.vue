@@ -87,7 +87,7 @@ import { ElMessage, ElMessageBox } from 'element-plus'
 export default {
   data() {
     return {
-      name: 'zxw',
+      name: 'xxc',
       password: '1234567',
       checkedView: false, //显示密码标志
       checked: true, //单选框标志
